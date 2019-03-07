@@ -1,6 +1,6 @@
 package ro.jademy.carrental;
 
-public class Car {
+public class Car  {
 
     // Q: how can we better represent the car make?
     public String make;
@@ -28,4 +28,5 @@ public class Car {
 
     // Q: do we need a constructor other than the default one?
     // Q: how can we better protect the car data?
+
 }
