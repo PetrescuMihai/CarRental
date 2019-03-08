@@ -1,4 +1,6 @@
-package ro.jademy.carrental;
+package ro.jademy.carrental.users;
+
+import java.util.ArrayList;
 
 public class Salesman extends Person {
 
@@ -6,8 +8,6 @@ public class Salesman extends Person {
 
     public Salesman(String firstName, String lastName) {
         super(firstName, lastName);
-
-
     }
 
 }

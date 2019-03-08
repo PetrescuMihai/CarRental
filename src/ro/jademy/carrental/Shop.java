@@ -1,7 +1,25 @@
 package ro.jademy.carrental;
 
+import ro.jademy.carrental.cars.Car;
+import ro.jademy.carrental.users.Customer;
+import ro.jademy.carrental.users.Person;
+import ro.jademy.carrental.users.Salesman;
+
+import java.util.ArrayList;
+
 public class Shop {
     // Q: what fields and methods should this class contain?
+
+    private ArrayList<Customer> customerList = new ArrayList<>();
+    private ArrayList<Salesman> salesmanList = new ArrayList<>();
+    private ArrayList<Car> carsList = new ArrayList<>();
+
+
+    public Shop(ArrayList<Salesman> salesmenList, ArrayList<Car> carsList) {
+        this.salesmanList.addAll(salesmenList);
+        this.carsList.addAll(carsList);
+    }
+
 
     public boolean login(String username, String password) {
 
